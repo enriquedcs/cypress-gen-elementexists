@@ -1,0 +1,24 @@
+{
+  "name": "cypress-gen-elmexists",
+  "version": "1.0.0",
+  "description": "Test Automation Cypress Element exists",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Test",
+    "Automation",
+    "Cypress",
+    "Element",
+    "exists"
+  ],
+  "author": "Enrique Dcss",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.6.4"
+  },
+  "dependencies": {
+    "prettier": "^3.2.5"
+  }
+}
