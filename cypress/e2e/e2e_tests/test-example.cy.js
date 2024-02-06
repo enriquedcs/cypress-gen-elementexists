@@ -3,7 +3,7 @@ import MainPage from '../../page-objects/components/MainPage'
 
 describe('Elements Exist', () => {
    
-    it('verify Elements exist accross the pages', () =>{
+    it('Elements exist accross the pages', () =>{
      
         cy.visit(`${config.URL2}`)
         cy.on('window:confirm', cy.stub().as('confirm'))
@@ -42,7 +42,7 @@ describe('Elements Exist', () => {
 
     })
 
-    it('verify Element is visible accross the pages', () =>{
+    it('Element is visible accross the pages', () =>{
      
         cy.visit(`${config.URL2}`)
         cy.on('window:confirm', cy.stub().as('confirm'))
