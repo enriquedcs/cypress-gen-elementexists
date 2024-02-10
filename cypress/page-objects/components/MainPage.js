@@ -20,7 +20,19 @@ export default class MainPage {
                 cy.get(text).click()
             } 
             else{
-                return text
+                return '.both.text-reset'
+            }
+        })
+    }
+
+    static elVisible(text){
+        cy.get(text)
+            .then($body => {
+            if ($body.is(':visible')) {
+                cy.get(text).click()
+            } 
+            else{
+                return
             }
         })
     }
