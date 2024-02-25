@@ -20,4 +20,11 @@ npx cypress open -> to see window execution
 
 lambdatest-cypress run
 
+### :thought_balloon: Checkout the blogs related to Testing on [LambdaTest blogs](https://www.lambdatest.com/blog/author/enrique/)
+
+
+## :writing_hand: Blog Link
+
+- [How to Check if an Element exists in Cypress](https://www.lambdatest.com/blog//author/enrique)
+
 
