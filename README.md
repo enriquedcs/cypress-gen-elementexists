@@ -20,6 +20,8 @@ npx cypress open -> to see window execution
 
 lambdatest-cypress run
 
+
+
 ### :thought_balloon: Checkout the blogs related to Testing on [LambdaTest blogs](https://www.lambdatest.com/blog/author/enrique/)
 
 
